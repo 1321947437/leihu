@@ -1,3 +1,4 @@
+import java.util.Date;
 import java.util.Scanner;
 
 public class demo2 {
@@ -8,7 +9,10 @@ public class demo2 {
         Scanner scanner=new Scanner(System.in);
         System.out.println("please you print to name");
         String name=scanner.nextLine();
-        System.out.println("you name"+name);
-
+        System.out.println("you name"+""+name);
+    }
+    public void datedemo(){
+        Date date=new Date();
+        System.out.println(date.toString());
     }
 }
